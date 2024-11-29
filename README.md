@@ -79,8 +79,8 @@ Para consultar uma NFSe emitida, você pode usar a função `searchNFSe($numero_
     ?>
     ```
 
-1. **Enviar RPS (Recibo Provisório de Serviços)**
-Para enviar um RPS, você pode utilizar a função `sendNFSe($rps)`.
+3. **Cancelar NFSe**
+Para cancelar uma NFSe, você pode utilizar a função `cancelNFSe($num_nfse, $reason)`.
 
     ```php
     <?php
