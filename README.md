@@ -23,6 +23,7 @@ Para utilizar este código, é necessário ter o PHP instalado e acesso à API d
    ```bash
    git clone https://github.com/seu-usuario/integração-nfse.git
     ```
+
 2. **Configure a URL da API**
     No arquivo nfse.php, altere a constante API_URL para a URL base da API NFSe do seu município ou da plataforma de NFSe que você está utilizando.
 
@@ -31,6 +32,7 @@ Para utilizar este código, é necessário ter o PHP instalado e acesso à API d
     ```
 
 3. **Instale o CURL no PHP**
+
    ```bash
     sudo apt install php-curl
    ```
